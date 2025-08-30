@@ -132,7 +132,10 @@ export default function Home() {
                 <div className="container mx-auto px-6 py-20">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div className="space-y-8">
-                            <h1 className="text-6xl lg:text-8xl font-extrabold text-white leading-tight">
+                            <div style={{ ...glassEffect, borderRadius: '2rem' }} className="inline-block text-white px-6 py-2 font-bold text-sm mb-6">
+                                TREASURE COAST'S PREMIER DIGITAL LAB
+                            </div>
+                            <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-tight">
                                 Built for Dentists. <br /> <span className="text-gray-300">Trusted by Patients.</span>
                             </h1>
                             <p className="text-xl font-semibold text-gray-400 max-w-lg">
@@ -218,7 +221,7 @@ export default function Home() {
                             Unmatched <span className="text-gray-300">Convenience</span>
                         </h2>
                         <p className="text-xl font-semibold text-gray-400 max-w-3xl mx-auto">
-                            Our mobile service brings the lab to your doorstep. We handle everything from scanning to fabrication right at your practice, enabling same-day treatment for your patients.
+                            Our mobile service brings the lab to your doorstep, serving from Vero Beach to West Palm Beach. We handle everything from scanning to fabrication right at your practice, enabling same-day treatment for your patients.
                         </p>
                     </div>
 
