@@ -126,8 +126,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-red-500 min-h-screen flex items-center justify-center">
-      <h1 className="text-white text-4xl font-bold">Hello World! React is working!</h1>
+    <div className="bg-black">
             {/* Hero Section */}
             <section id="home" className="relative overflow-hidden">
                 <div className="container mx-auto px-6 py-20">
