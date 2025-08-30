@@ -132,13 +132,9 @@ export default function Home() {
                 <div className="container mx-auto px-6 py-20">
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div className="space-y-8">
-                            <div style={{ ...glassEffect, borderRadius: '2rem' }} className="inline-block text-white px-6 py-2 font-bold text-sm mb-6">
-                                FLORIDA'S PREMIER DIGITAL LAB
-                            </div>
-                            <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-tight">
-                                FLORIDA'S PREMIER <br /> <span className="text-gray-300">DIGITAL LAB.</span>
+                            <h1 className="text-6xl lg:text-8xl font-extrabold text-white leading-tight">
+                                Built for Dentists. <br /> <span className="text-gray-300">Trusted by Patients.</span>
                             </h1>
-                            <h2 className="text-3xl font-bold text-white">Built for Dentists. <br/>Trusted by Patients.</h2>
                             <p className="text-xl font-semibold text-gray-400 max-w-lg">
                                 Our state-of-the-art lab in Port St. Lucie delivers exceptional cosmetic restorations with cutting-edge 3D printing technology for dental practices.
                             </p>
