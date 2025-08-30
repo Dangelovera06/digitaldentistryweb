@@ -1,0 +1,30 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#000000"/>
+  
+  <!-- Main content container -->
+  <g transform="translate(100, 115)">
+    <!-- Tooth icon -->
+    <g transform="translate(0, 50)">
+      <!-- Tooth outline -->
+      <path d="M 50 0 L 80 20 L 90 40 L 85 60 L 80 80 L 70 100 L 60 120 L 50 140 L 40 120 L 30 100 L 20 80 L 15 60 L 20 40 L 30 20 Z" 
+            fill="none" 
+            stroke="#ffffff" 
+            stroke-width="3"/>
+      
+      <!-- Digital squares inside tooth -->
+      <rect x="55" y="25" width="8" height="8" fill="#cccccc"/>
+      <rect x="65" y="35" width="8" height="8" fill="#cccccc"/>
+    </g>
+    
+    <!-- Text -->
+    <g transform="translate(120, 0)">
+      <text x="0" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">
+        DIGITAL DENTISTRY
+      </text>
+      <text x="0" y="120" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">
+        LAB & MASTERY
+      </text>
+    </g>
+  </g>
+</svg>
