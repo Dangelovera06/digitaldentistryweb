@@ -64,9 +64,15 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex justify-between items-center">
             <button onClick={() => scrollToSection('#home')} className="flex items-center space-x-4">
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png"
-                alt="Digital Dentistry Lab and Mastery Logo"
+                src="/ddlm-logo.png?v=1"
+                alt="Digital Dentistry Lab and Mastery - DDLM Logo"
                 className="h-12 w-auto"
+                onLoad={() => console.log('DDLM logo loaded successfully!')}
+                onError={(e) => {
+                  console.log('DDLM logo failed to load, using fallback');
+                  // Fallback to current logo if DDLM logo not found
+                  e.target.src = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png";
+                }}
               />
               <span className="font-bold text-lg hidden sm:inline">Digital Dentistry Lab and Mastery</span>
             </button>
@@ -113,9 +119,13 @@ export default function Layout({ children, currentPageName }) {
                   <div className="flex flex-col space-y-8 mt-8">
                     <div className="mb-4 flex items-center space-x-3">
                       <img 
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png"
-                        alt="Digital Dentistry Lab and Mastery Logo"
+                        src="/ddlm-logo.png?v=1"
+                        alt="Digital Dentistry Lab and Mastery - DDLM Logo"
                         className="h-10 w-auto flex-shrink-0"
+                        onError={(e) => {
+                          // Fallback to current logo if DDLM logo not found
+                          e.target.src = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png";
+                        }}
                       />
                        <span className="font-bold text-base">Digital Dentistry Lab and Mastery</span>
                     </div>
@@ -149,9 +159,13 @@ export default function Layout({ children, currentPageName }) {
                 <div className="md:col-span-1">
                     <div className="mb-4 flex items-center space-x-3 justify-center md:justify-start">
                       <img 
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png"
-                        alt="Digital Dentistry Lab and Mastery Logo"
+                        src="/ddlm-logo.png?v=1"
+                        alt="Digital Dentistry Lab and Mastery - DDLM Logo"
                         className="h-10 w-auto"
+                        onError={(e) => {
+                          // Fallback to current logo if DDLM logo not found
+                          e.target.src = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png";
+                        }}
                       />
                        <span className="font-bold text-lg">Digital Dentistry Lab and Mastery</span>
                     </div>

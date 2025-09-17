@@ -352,6 +352,43 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* DDLM Logo Section */}
+            <section className="py-20">
+                <div className="container mx-auto px-6">
+                    <div className="text-center mb-16">
+                        <div style={{ ...glassEffect, borderRadius: '2rem' }} className="inline-block text-white px-6 py-2 font-bold text-sm mb-6">
+                            POWERED BY EXCELLENCE
+                        </div>
+                        <h2 className="text-4xl lg:text-6xl font-extrabold text-white mb-8">
+                            Digital Dentistry Lab <span className="text-gray-300">& Mastery</span>
+                        </h2>
+                        <p className="text-xl font-semibold text-gray-400 max-w-3xl mx-auto mb-12">
+                            Your trusted partner in precision dental restoration and cutting-edge digital dentistry solutions.
+                        </p>
+                    </div>
+
+                    {/* Logo Display */}
+                    <div className="flex justify-center">
+                        <div style={glassEffect} className="p-12 inline-block">
+                            <img 
+                                src="/ddlm-logo.png?v=1" 
+                                alt="Digital Dentistry Lab and Mastery - DDLM Logo"
+                                className="h-32 w-auto mx-auto filter brightness-110"
+                                onError={(e) => {
+                                    // Fallback to current logo if DDLM logo not found
+                                    e.target.src = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/ad7cf4303_lgogo.png";
+                                }}
+                            />
+                            <div className="mt-6 text-center">
+                                <p className="text-lg font-bold text-gray-200">
+                                    Precision • Innovation • Excellence
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Contact Section */}
             <section id="contact" className="py-20">
                 <div className="container mx-auto px-6">
