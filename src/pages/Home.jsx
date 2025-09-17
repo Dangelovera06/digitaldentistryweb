@@ -59,7 +59,7 @@ export default function Home() {
       { icon: Printer, title: "3D COSMETIC PRINTING", description: "Advanced 3D printing for crowns, veneers, and bridges with industry-leading precision.", features: ["High-resolution printing", "Biocompatible materials", "Perfect color matching"] },
       { icon: Palette, title: "MOBILE DIGITAL DESIGN", description: "On-site CAD services from in-office scan to final restoration design.", features: ["In-office 3D scanning", "Custom design workflow", "Immediate design approval"] },
       { icon: Shield, title: "CROWN & BRIDGE WORK", description: "Full-coverage restorations delivered with optimal fit and rapid turnaround times.", features: ["Single crown fabrication", "Multi-unit bridges", "Implant-supported crowns"] },
-      { icon: Smile, title: "ADVANCED HYBRIDS", description: "Complete hybrid arch solutions designed for exceptional function and aesthetics.", features: ["Full arch conversions", "Immediate load provisionals", "Expert on-site scanning"] },
+      { icon: Smile, title: "ADVANCED HYBRIDS", description: "Complete AOX hybrid denture solutions designed for exceptional function and aesthetics.", features: ["Full arch conversions", "Immediate load provisionals", "Final Zirconia Implant Denture"] },
   ];
 
 
@@ -69,7 +69,8 @@ export default function Home() {
   { id: 3, title: "BRIDGE WORK", category: "bridges", image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/b4ee9dff1_ChatGPTImageAug28202511_55_19AM.png" },
   { id: 4, title: "VENEER SET", category: "veneers", image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c3cf92411_ChatGPTImageAug28202511_58_49AM.png" },
   { id: 5, title: "IMPLANT CROWNS", category: "implants", image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/640881b03_JPeF1ImplantCADCAMProvisional3DPrintedCrownBridge.jpg" },
-  { id: 6, title: "DIGITAL DESIGN", category: "orthodontics", image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/015acad82_ai-edited-image-1755789363033.jpg" }];
+  { id: 6, title: "DIGITAL DESIGN", category: "orthodontics", image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/015acad82_ai-edited-image-1755789363033.jpg" },
+  { id: 7, title: "TEMPORARY CROWNS - BEFORE & AFTER", category: "crowns", image: "/temporary-crowns-before-after.jpg" }];
 
   const speedServices = [
     {
